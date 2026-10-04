@@ -44,10 +44,12 @@ export default function IepfVaultSearch() {
     setLoading(true);
 
     try {
-      const url = new URL("http://localhost:8000/api/v1/iepf/search");
-      url.searchParams.set("pan_number", normalised);
+     const API_BASE_URL = import.meta.env.VITE_API_URL || "https://rakshak-c07d.onrender.com";
 
-      const response = await fetch(url.toString());
+const url = new URL(`${API_BASE_URL}/api/v1/iepf/search`);
+url.searchParams.set("pan_number", normalised);
+
+const response = await fetch(url.toString());
 
       if (!response.ok) {
         throw new Error(
