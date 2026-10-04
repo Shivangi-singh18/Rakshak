@@ -1,16 +1,50 @@
-# React + Vite
+# 🛡️ RAKSHAK
+> **Track B: Financial Grievance Redressal & Legal Automation Platform**  
+> Empowering Tier-2/3 investors with AI-driven grievance triage, automated legal petition generation, and IEPF asset tracking.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Live Demo & Deployment
+* **Frontend (Vercel):** [https://rakshak-azure.vercel.app/](https://rakshak-azure.vercel.app/)
+* **Backend API & Swagger Docs (Render):** [https://rakshak-c07d.onrender.com/docs](https://rakshak-c07d.onrender.com/docs)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 💡 Problem Statement
+Retail investors, particularly across Tier-2 and Tier-3 regions, frequently struggle with complex financial frauds, unclaimed dividends, and lost shares locked within the Investor Education and Protection Fund (IEPF). Navigating bureaucratic regulatory frameworks like SEBI SCORES or drafting formal legal petitions is overwhelming and inaccessible for ordinary citizens. 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Rakshak** bridges this gap by offering an intuitive, high-end GovTech platform that automates triage, surfaces unclaimed assets, and generates legal documents instantly.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Tech Stack
+
+### **Frontend**
+* **React + Vite** for blazing-fast component rendering.
+* **Tailwind CSS** for a modern, responsive, high-end glassmorphism UI.
+* **Lucide Icons** for clean visual cues and indicators.
+
+### **Backend**
+* **FastAPI (Python)** for a high-performance asynchronous REST API.
+* **SQLAlchemy & SQLite** for robust database modeling and management.
+* **ReportLab** for dynamic, automated PDF legal petition generation.
+
+---
+
+## 🌟 Key Features
+
+1. **AI-Driven Grievance Triage:** Intelligently categorizes investor complaints and maps them to appropriate regulatory redressing channels.
+2. **Automated Legal Petition Generation:** Generates formatted, legally sound briefs and petitions using backend PDF rendering tools.
+3. **IEPF Asset & Vault Tracking:** Allows users to query and track unclaimed dividends and shares using PAN numbers or folio credentials.
+4. **Interactive Dashboard & Judge Report:** High-end visual interface complete with team rosters, capabilities overview, and seamless navigation.
+
+---
+
+## ⚙️ Local Development Setup
+
+To run Rakshak locally on your machine, follow these steps:
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/Shivangi-singh18/Rakshak.git](https://github.com/Shivangi-singh18/Rakshak.git)
+cd Rakshak
